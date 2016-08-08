@@ -1,0 +1,17 @@
+Source: golang-github-edsrzf-mmap-go
+Section: devel
+Priority: extra
+Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-go
+Standards-Version: 3.9.8
+Homepage: https://github.com/edsrzf/mmap-go
+
+Package: golang-github-edsrzf-mmap-go-dev
+Architecture: all
+Depends: ${misc:Depends},
+         golang-go
+Built-Using: ${misc:Built-Using}
+Description: A portable mmap package for Go.
+ A portable mmap package for Go.

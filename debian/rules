@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+export DH_GOPKG := github.com/edsrzf/mmap-go
+
+%:
+	dh $@ --buildsystem=golang --with=golang --builddirectory=_build
+
+override_dh_auto_test:
+	-dh_auto_test

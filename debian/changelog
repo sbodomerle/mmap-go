@@ -1,0 +1,5 @@
+golang-github-edsrzf-mmap-go (20160512-935e0e8-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Sandor Bodo-Merle <sandor.bodo-merle@eli-alps.hu>  Mon, 08 Aug 2016 11:39:02 +0200
